@@ -1,0 +1,179 @@
+/* CSS Document */
+
+#title {
+	background-color: #3282b8;
+	padding: 0 0 150px
+}
+
+#middle {
+	transform: translateY(-100px);
+}
+
+#bottom {
+	background-color: #3282b8;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+	font-family: 'Unbuntu' , sans-serif;
+	background-color: aliceblue;
+}
+
+h1 {
+	font-family: 'Open Sans' , sans-serif;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+.author-text {
+	color:#2423BF;
+	font-family: 'Sans' , sans-serif;
+	font-size: 24px;
+}
+
+.container-fluid {
+	padding: 3% 15%;
+}
+
+/* Nav-Bar */
+.navbar {
+	padding-bottom: 0 0 6rem;
+}
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-size: 5rem;
+	font-weight: bold;
+}
+.nav-item {
+	padding: 0 30px;
+}
+.nav-link {
+	font-size: 1.2rem;
+	font-family: "Montserrat-light";
+}
+
+/* Nav-Bar End */
+
+.main-text {
+	color:#0187D1;
+	font-family: 'Roboto' , sans-serif;
+	font-size: 18px;
+}
+
+.top-container {
+	background-color: #e4fpf5;
+	position: relative;
+	padding-top: 75px;
+	text-align: center;
+}
+
+.profile-container {
+	text-align: center;
+}
+
+.blog-container {
+	width: 1140px;
+	margin: 20px auto 0 auto; 
+}
+
+.middle-container {
+	margin: 100px 0;
+	padding: 50px 10px 135px;
+}
+
+.intro-text {
+	padding: 0 500px;
+}
+
+.comp {
+	text-align: center;
+	transform: translateY(75px);
+	height: 300px;
+}
+
+/* FOUR CARD */
+
+.card-container {
+	transform: translateY(-150px);
+}
+
+.header-kid {
+	/*	margin: 8px 33%; */
+	grid-column-start: 2;
+}
+
+.first {
+	font-weight: 200;
+	margin-bottom: 0;
+}
+
+.second {
+	font-weight: 600;
+	margin: 0;
+}
+
+/* CARDS */
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 40px;
+	margin: 0 5%;
+}
+
+.grid-kid {
+	border-top: 4px solid;
+	border-radius: 5px;
+	box-shadow: 5px 10px 8px #888888;
+	height: 280px;
+	background-color: white;
+}
+
+.grid-kid img{
+	float: right;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+.card1 {
+	border-color: hsl(180, 62%, 55%);
+	grid-area: 2 / 1 / 4 / 2 ;
+}
+
+.card2 {
+	border-color: hsl(0, 78%, 62%);
+	grid-area: 1 / 2 / 3 / 3 ;
+}
+
+.card3 {
+	border-color: hsl(34, 97%, 64%);
+	grid-area: 3 / 2 / 5 / 3 ;
+}
+
+.card4 {
+	border-color: hsl(212, 86%, 64%);
+	grid-area: 2 / 3 / 4 / 4 ;
+}
+
+.card-img {
+	height: 75px;
+	max-width: 75px;
+}
+
+.bottom-container {
+	margin: 100px 0;
+	padding: 50px 10px;
+	text-align:center;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer-link {
+	color: #000;
+}
